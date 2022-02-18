@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @berhili03
-- 👀 I’m interenbsted in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include <stdio.h>
+#include <cs50.h>
 
-<!---
-berhili03/berhili03 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+int main()
+{
+    // entrez votre nom
+    string name = get_string("Enter your name : ");
+    printf("Your name is %s\n", name);
+
+}
