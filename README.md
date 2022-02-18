@@ -4,6 +4,7 @@
 int main()
 {
     // entrez votre nom
+    
     string name = get_string("Enter your name : ");
     printf("Your name is %s\n", name);
 
